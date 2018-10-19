@@ -1,6 +1,5 @@
-Examples and exercises from System C From the Ground Up.
-
-Assumes a unix shell or unix-like shell (e.g. msys2).
+SystemC study material, examples and exercises corrosponding to
+"System C From the Ground Up" second edition. Original code.
 
 Update submodules to get the systemc library (source).
 
@@ -11,3 +10,4 @@ make build
 make install
 ~~~
 
+Assumes a unix shell or unix-like shell (e.g. msys2).
