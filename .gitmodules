@@ -1,0 +1,3 @@
+[submodule "systemc"]
+	path = systemc
+	url = https://github.com/philmulholland/SystemC.git
