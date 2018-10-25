@@ -1,4 +1,4 @@
-__MKDIR_OBJ=-mkdir ${OBJ_DIR} >> /dev/null
+__MKDIR_OBJ=-mkdir ${OBJ_DIR} 2> /dev/null
 
 
 ${OBJ_DIR}/%.o : %.cpp

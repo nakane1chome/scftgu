@@ -1,3 +1,10 @@
+/* 
+
+   Exercise to read file and parse systemc literal values using stream input operator.
+   
+   Format output using to_string() method.
+
+ */
 #include <systemc.h>
 #include <vector>
 #include <fstream>

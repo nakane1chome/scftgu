@@ -21,7 +21,7 @@ LD=g++
 endif
 
 CPPFLAGS=${INCLUDE_DIRS:%=-I%}
-CXXFLAGS=--std=c++03
+CXXFLAGS=--std=c++03 -O2
 LDFLAGS=${LIB_DIRS:%=-L%} -lsystemc
 EXE=
 OBJ_DIR=obj.${UNAME_S}.${UNAME_A}
