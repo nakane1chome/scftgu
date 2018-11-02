@@ -28,4 +28,5 @@ CFG_FLAGS= --host=x86_64-w64-mingw32
 endif
 
 ${SYSTEMC_SRC}/Makefile :
+	cd ${SYSTEMC_SRC}; autoremake # Setup with locally installed autotools
 	cd ${SYSTEMC_SRC}; ./configure CXXFLAGS=-std=c++03 ${CFG_FLAGS}

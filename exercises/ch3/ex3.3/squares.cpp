@@ -13,6 +13,7 @@ Performance measurement is inbuilt for unix-like OS via getrusage().
 #include <vector>
 #include <fstream>
 #include <iostream>
+#include <sstream>
 #include <locale>
 
 #include <stdio.h>

@@ -1,58 +1,58 @@
 
-        SystemC 2.3.1-Accellera --- Oct 25 2018 22:12:23
-        Copyright (c) 1996-2014 by all Contributors,
+        SystemC 2.3.2-Accellera --- Nov  2 2018 22:48:57
+        Copyright (c) 1996-2017 by all Contributors,
         ALL RIGHTS RESERVED
 
 Info: run_and_time_start: uint8_t
 
-Info: run_and_time_usec: 1,431,694 (1x slower)
+Info: run_and_time_usec: 1,478,623 (1x slower)
 
 Info: run_and_time_end: uint8_t
 
 Info: run_and_time_start: unsigned int
 
-Info: run_and_time_usec: 1,514,879 (1.0581x slower)
+Info: run_and_time_usec: 1,491,993 (1.00904x slower)
 
 Info: run_and_time_end: unsigned int
 
 Info: run_and_time_start: float
 
-Info: run_and_time_usec: 1,531,788 (1.06991x slower)
+Info: run_and_time_usec: 1,518,447 (1.02693x slower)
 
 Info: run_and_time_end: float
 
 Info: run_and_time_start: double
 
-Info: run_and_time_usec: 1,532,445 (1.07037x slower)
+Info: run_and_time_usec: 1,529,323 (1.03429x slower)
 
 Info: run_and_time_end: double
 
 Info: run_and_time_start: sc_int<8>
 
-Info: run_and_time_usec: 2,059,289 (1.43836x slower)
+Info: run_and_time_usec: 2,166,424 (1.46516x slower)
 
 Info: run_and_time_end: sc_int<8>
 
 Info: run_and_time_start: sc_uint<19>
 
-Info: run_and_time_usec: 2,135,492 (1.49158x slower)
+Info: run_and_time_usec: 2,168,255 (1.4664x slower)
 
 Info: run_and_time_end: sc_uint<19>
 
 Info: run_and_time_start: sc_bigint<8>
 
-Info: run_and_time_usec: 27,985,010 (19.5468x slower)
+Info: run_and_time_usec: 29,583,151 (20.0072x slower)
 
 Info: run_and_time_end: sc_bigint<8>
 
 Info: run_and_time_start: sc_bigint<100>
 
-Info: run_and_time_usec: 30,149,770 (21.0588x slower)
+Info: run_and_time_usec: 32,028,160 (21.6608x slower)
 
 Info: run_and_time_end: sc_bigint<100>
 
 Info: run_and_time_start: sc_fixed<12,12>
 
-Info: run_and_time_usec: 39,831,402 (27.8212x slower)
+Info: run_and_time_usec: 41,464,002 (28.0423x slower)
 
 Info: run_and_time_end: sc_fixed<12,12>
