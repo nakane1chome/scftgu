@@ -1,2 +1,7 @@
 *~
 install
+**/obj.**/
+install-**
+build/**
+build-*/**
+*.exe

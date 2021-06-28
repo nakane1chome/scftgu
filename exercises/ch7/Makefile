@@ -1,18 +1,20 @@
 # Exercise to compile examples
 # Using a common build setup for all exercises
 
-TOP_DIR=../../../
+TOP_DIR=../../
 include ${TOP_DIR}/common/vars.mak
 
 
-TARGETS=hello_world${EXE} datatypes${EXE}
+TARGETS=\
+	simple_spawn${EXE} 
+
 
 all  : ${TARGETS}
 
-hello_world.cpp : ../../../examples/ch2/hello_world.cpp
+simple_spawn.cpp : ${TOP_DIR}/examples/ch7/simple_spawn.cpp
 	cp $< $@ 
 
-datatypes.cpp : ../../../examples/ch3/datatypes.cpp
-	cp $< $@ 
+simple_spawn${EXE} : ${OBJ_DIR}/simple_spawn.o
+
 
 include ${TOP_DIR}/common/targets.mak
