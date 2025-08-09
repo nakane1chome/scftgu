@@ -6,7 +6,7 @@ ${OBJ_DIR}/%.o : %.cpp
 	${CXX} -c -o $@ ${CXXFLAGS} ${CPPFLAGS} $< -MMD 
 
 %${EXE} : ${OBJ_DIR}/%.o
-	${LD} -o $@   ${LDFLAGS} ${OBJ_FILES} $<
+	${LD} -o $@   ${LDFLAGS} ${OBJ_FILES} $^
 
 
 clean :
